@@ -10,12 +10,7 @@ class GitCommand {
     }
 
     //Command: git status
-    status(){        
-        /*
-            For assignment #1:
-            Create logic here and run unit testing.
-        */
-    }
+    // status(){}
 
     //Command: git add <filename/file directory/wildcard> 
     add(path_file){
@@ -26,9 +21,7 @@ class GitCommand {
             delete modified_files[path_file];
         }
         /*
-            For assignment #2:
             Create logic here and run unit testing.
-            Don't forget to uncomment the unit tests.
         */
         else{
             return `Failed to add ${path_file}! File is not modified or missing.`;
